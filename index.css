@@ -282,7 +282,6 @@ button.action-button {
 
 
 
-/* 48em = 768px */
 @media (min-width: 48em) {
     .card-small{
         max-width: 264px;
@@ -323,40 +322,86 @@ button.action-button {
 }
 
 /* Details Dialog*/
-#detailsDialog{
-    border: 0;
-    border-radius: 32px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    padding: 0;
-    max-width: 640px;
-}
-
-.dialog-content img.header-img{
-    border-radius: 32px 32px 0 0;
-    height: 128px;
-}
-
-.dialog-content span{
-    color: #78909c;
-    font-size: 12px;
-}
-
-.close-dialog{
-    position: absolute;
+/* The Modal (background) */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
-    background: transparent;
-    border: 0;
-    font-size: 24px;
-    padding: 12px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 480px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    max-height: calc(100vh - 64px);
+    overflow-y: auto;
+}
+
+@media (max-width: 48em) {
+    .modal{
+        padding-top: 78px;
+    }
+    .modal-content{
+        width: 100%;
+    }
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
     font-weight: bold;
-    color: #ffffff;
+    position: absolute;
+    right: 8px;
+    top: 0;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
     cursor: pointer;
 }
 
-menu{
-    padding-inline-start: 0;
+.modal-header {
+    height: 148px;
+    background-color: #5cb85c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
+
+.modal-body {padding: 2px 16px;}
 
 /*Snack bar*/
 #snackbar {

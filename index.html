@@ -50,20 +50,13 @@ Remember, your solution will be manually evaluated within 15 business days. -->
 </div>
 <script src="index.js"></script>
 
-<dialog id="detailsDialog">
-    <div id="dialog-content" class="dialog-content"></div>
+<div id="detailsModal" class="modal">
+    <div class="modal-content">
+        <div id="modal-content"></div>
+    </div>
+</div>
 
-    <form method="dialog">
-        <menu>
-            <button class="close-dialog" value="cancel">X</button>
-            <button id="confirmBtn" value="default" class="blue-button action-button" onclick="applyToEvent()">Apply to
-                this Event!
-            </button>
-        </menu>
-    </form>
-</dialog>
-
-<div id="snackbar">Applied to event with success!</div>
+<div id="snackbar"></div>
 
 </body>
 

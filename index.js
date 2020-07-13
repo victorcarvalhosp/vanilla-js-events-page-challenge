@@ -18,8 +18,13 @@ const EventTypesEnum = {
 }
 const events = [
     {
-        id: 1, type: EventTypesEnum.MEET_UP, title: 'Interview-practice class OPEN HOUSE July', date: new Date("08-01-2020"),
-        image: "https://picsum.photos/id/167/264/128", location: "Online", deadline: new Date("07-20-2020"),
+        id: 1,
+        type: EventTypesEnum.MEET_UP,
+        title: 'Interview-practice class OPEN HOUSE July',
+        date: new Date("08-01-2020"),
+        image: "https://picsum.photos/id/167/264/128",
+        location: "Online",
+        deadline: new Date("07-20-2020"),
         applied: false,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
     },
@@ -44,8 +49,11 @@ const events = [
     {
         id: 5,
         type: EventTypesEnum.PREMIUM_WEBINAR,
-        title: 'Webinar with Bill Gates', date: new Date("11-01-2020"),
-        image: "https://img.ibxk.com.br/2019/08/21/21091807554434.jpg?w=1120&h=420&mode=crop&scale=both", location: "Online", deadline: new Date("10-01-2020"),
+        title: 'Webinar with Bill Gates',
+        date: new Date("11-01-2020"),
+        image: "https://img.ibxk.com.br/2019/08/21/21091807554434.jpg?w=1120&h=420&mode=crop&scale=both",
+        location: "Online",
+        deadline: new Date("10-01-2020"),
         applied: false,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
     },
@@ -56,8 +64,13 @@ const events = [
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
     },
     {
-        id: 7, type: EventTypesEnum.RECRUITING_MISSION, title: 'Recruiting mission Santa Catarina, BR', date: new Date("12-01-2020"),
-        image: "https://picsum.photos/id/129/264/128", location: "Santa Catarina, Brazil", deadline: new Date("11-15-2020"),
+        id: 7,
+        type: EventTypesEnum.RECRUITING_MISSION,
+        title: 'Recruiting mission Santa Catarina, BR',
+        date: new Date("12-01-2020"),
+        image: "https://picsum.photos/id/129/264/128",
+        location: "Santa Catarina, Brazil",
+        deadline: new Date("11-15-2020"),
         applied: false,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
     },
@@ -76,14 +89,24 @@ const events = [
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
     },
     {
-        id: 10, type: EventTypesEnum.RECRUITING_MISSION, title: 'Recruiting mission Sao Paulo, BR', date: new Date("11-01-2020"),
-        image: "https://picsum.photos/id/121/264/128", location: "Sao Paulo, Brazil", deadline: new Date("10-15-2020"),
+        id: 10,
+        type: EventTypesEnum.RECRUITING_MISSION,
+        title: 'Recruiting mission Sao Paulo, BR',
+        date: new Date("11-01-2020"),
+        image: "https://picsum.photos/id/121/264/128",
+        location: "Sao Paulo, Brazil",
+        deadline: new Date("10-15-2020"),
         applied: false,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
     },
     {
-        id: 11, type: EventTypesEnum.RECRUITING_MISSION, title: 'Recruiting mission Buenos Aires', date: new Date("01-26-2021"),
-        image: "https://picsum.photos/id/4/264/128", location: "Buenos Aires, Argentina", deadline: new Date("12-15-2020"),
+        id: 11,
+        type: EventTypesEnum.RECRUITING_MISSION,
+        title: 'Recruiting mission Buenos Aires',
+        date: new Date("01-26-2021"),
+        image: "https://picsum.photos/id/4/264/128",
+        location: "Buenos Aires, Argentina",
+        deadline: new Date("12-15-2020"),
         applied: false,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
     },
@@ -115,8 +138,13 @@ const events = [
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
     },
     {
-        id: 16, type: EventTypesEnum.RECRUITING_MISSION, title: 'Recruiting mission Tokyo', date: new Date("03-01-2021"),
-        image: "https://picsum.photos/id/121/264/128", location: "Tokyo, Japan", deadline: new Date("02-15-2021"),
+        id: 16,
+        type: EventTypesEnum.RECRUITING_MISSION,
+        title: 'Recruiting mission Tokyo',
+        date: new Date("03-01-2021"),
+        image: "https://picsum.photos/id/121/264/128",
+        location: "Tokyo, Japan",
+        deadline: new Date("02-15-2021"),
         applied: false,
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
     },]
@@ -126,26 +154,34 @@ let selectedEvent = null;
 let selectedFilter = null;
 
 const openDetailsDialogComponent = (id) => {
-    document.getElementById('detailsDialog').showModal();
+    openModal();
     selectedEvent = events.find(ev => ev.id === id);
     render(`
-    <img class="header-img" src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%" />
-    <div class="card-container">
-    <h4>${selectedEvent.title}</h4>
-    <span class="event-type" style="background-color: rgba(${EventTypesEnum.properties[selectedEvent.type].colorRgb}, 0.1); color: rgba(${EventTypesEnum.properties[selectedEvent.type].colorRgb}, 1)">${EventTypesEnum.properties[selectedEvent.type].name}</span>
-    <span class="date">${selectedEvent.date?.toLocaleDateString('en-US', {
+        <div class="modal-header" style="background-image: url('${selectedEvent.image}')">
+            <span class="close" onclick="closeModal()">&times;</span>
+        </div>
+        <div class="modal-body">    <div class="card-container">
+            <h4>${selectedEvent.title}</h4>
+            <span class="event-type" style="background-color: rgba(${EventTypesEnum.properties[selectedEvent.type].colorRgb}, 0.1); color: rgba(${EventTypesEnum.properties[selectedEvent.type].colorRgb}, 1)">${EventTypesEnum.properties[selectedEvent.type].name}</span>
+            <span class="date">${selectedEvent.date?.toLocaleDateString('en-US', {
         month: 'long',
         day: '2-digit',
         year: 'numeric',
     })}</span> 
-        <span class="location"><img src="https://svgshare.com/i/MrF.svg" width="16px" height="16px" />${selectedEvent.location}</span>
-        <span class="date-deadline">Deadline: ${selectedEvent.deadline?.toLocaleDateString('en-US')}</span>
-        <p>${selectedEvent.description}</p>
-        <a class="twitter-share-button" target="_blank"
-               href="https://twitter.com/intent/tweet?text=Join ${selectedEvent?.title} See more details at: https://vanhack.com/platform/#/events"
-               data-size="large">
-                Share this event on Twitter!</a>
-    </div>`, document.querySelector("#dialog-content"));
+                <span class="location"><img src="https://svgshare.com/i/MrF.svg" width="16px" height="16px" />${selectedEvent.location}</span>
+                <span class="date-deadline">Deadline: ${selectedEvent.deadline?.toLocaleDateString('en-US')}</span>
+                <p>${selectedEvent.description}</p>
+                <a class="twitter-share-button" target="_blank"
+                       href="https://twitter.com/intent/tweet?text=Join ${selectedEvent?.title} See more details at: https://vanhack.com/platform/#/events"
+                       data-size="large">
+                        Share this event on Twitter!</a>
+                ${selectedEvent.applied ? `<p style="color: green">You'll participate on this event!</p>` : `<button id="confirmBtn" value="default" class="blue-button action-button" onclick="applyToEvent()">Apply to
+                this Event!
+                </button>
+                `}
+                ${selectedEvent.type == EventTypesEnum.PREMIUM_WEBINAR ? `<p style="font-weight: bold">Only premium members can participate on this event <a target="_blank" href="https://vanhack.com/">click here</a> to join VanHack</p>` : ``}     
+            </div>
+        </div>`, document.querySelector("#modal-content"));
 }
 
 const renderEventCardsComponent = () => {
@@ -165,7 +201,6 @@ const renderEventCardsComponent = () => {
         })}</span> 
             <span class="location"><img src="https://svgshare.com/i/MrF.svg" width="16px" height="16px" />${ev.location}</span>
             <span class="date-deadline">Deadline: ${ev.deadline?.toLocaleDateString('en-US')}</span> 
-            
             <button class="action-button blue-button" onclick="openDetailsDialogComponent(${ev.id})">See details</button>
           </div>
         </div>`
@@ -204,14 +239,27 @@ const renderFilters = () => {
             </div>
         </div>`;
 
-    render(filtersComponent, document.querySelector("#filters"))
+    render(filtersComponent, document.querySelector("#filters"));
+}
+
+function openModal() {
+    document.getElementById("detailsModal").style.display = "block";
+}
+
+function closeModal() {
+    document.getElementById("detailsModal").style.display = "none";
 }
 
 function applyToEvent() {
-    selectedEvent.applied = true;
-    events.find(ev => ev.id === selectedEvent.id).applied = true;
-    renderEventCardsComponent();
-    showToast();
+    if (selectedEvent.type == EventTypesEnum.PREMIUM_WEBINAR) {
+        showToast("Only premium members can apply to this event!");
+    } else {
+        selectedEvent.applied = true;
+        events.find(ev => ev.id === selectedEvent.id).applied = true;
+        closeModal()
+        renderEventCardsComponent();
+        showToast("Applied to event with success!");
+    }
 }
 
 
@@ -229,9 +277,10 @@ function filterEvents(eventType) {
     renderFilters();
 }
 
-function showToast() {
+function showToast(text) {
     const snackbar = document.getElementById("snackbar");
     snackbar.className = "show";
+    render(text, snackbar);
     setTimeout(function () {
         snackbar.className = snackbar.className.replace("show", "");
     }, 3000);
@@ -241,6 +290,13 @@ function showToast() {
 function render(template, node) {
     node.innerHTML = template;
 };
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+    if (event.target == document.getElementById("detailsModal")) {
+        document.getElementById("detailsModal").style.display = "none";
+    }
+}
 
 renderFilters();
 renderEventCardsComponent();
